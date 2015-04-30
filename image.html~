@@ -11,9 +11,9 @@
     </head>
     <body>
         
-        <h1>GETTING STARTED WITH BRACKETS</h1>
+        <h1>MEIN WEBSEITE</h1>
         <img class="line" src="orange">
-        <h2>This is your guide!</h2>
+        <h2>Photos</h2>
         
         <!--
             <script type="text/javascript" src="loadImage.js" async></script>
