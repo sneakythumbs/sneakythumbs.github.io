@@ -15,7 +15,7 @@ else
 {
 	var home = document.createElement("a");
 	var text = document.createTextNode("Sorry image not found.");
-	home.appendChild(text);
+	home.appendChild("Sorry image not found.");
 	home.title = "home";
 	home.href = "http://sneakythumbs.github.io";
 	document.body.appendChild(home);
