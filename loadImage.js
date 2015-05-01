@@ -1,8 +1,8 @@
-var loc = window.location.href.split("?");
+var loc = window.location.search.slice(1);
 
 if (loc.length == 2)
 {
-    var imageSrc = "https://farm9.staticflickr.com/" + loc[loc.length -1] + ".jpg";
+    var imageSrc = "https://farm9.staticflickr.com/" + loc + ".jpg";
 
 	var img = document.createElement("img");
 	img.id = "preview";
