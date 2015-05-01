@@ -1,6 +1,6 @@
 var loc = window.location.search.slice(1);
-alert(loc);
-if (loc.length == 2)
+
+if (loc)
 {
     var imageSrc = "https://farm9.staticflickr.com/" + loc + ".jpg";
 
