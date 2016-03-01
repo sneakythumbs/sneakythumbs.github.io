@@ -6,13 +6,15 @@
 <style> 
 <!--
         @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,300,400italic,300italic);
-	body * { overflow: auto; font-family:'Open Sans', sans-serif; }
-	div { position:relative; min-width=40em; }
+	body * { overflow:auto; font-family:'Open Sans', sans-serif; max-width:60em; /*border:dashed 1px;*/ }
+	div { min-width:40em; }
 	p { margin: 0px 0px 0.5em 0px; }
-        em { font-weight:300italic; }
+        em { font-weight:lighter; }
+	b { font-weight:600; }
+	hr {  height:2px; background-color:#000; }
 	.left { float:left; clear:both; width:12em; }
-	.mid { float:left; clear:right; top:0; left:12em;}
         .light { font-weight:300; }
+	.small { font-size:0.1em; }
 
 	.latex sub, .latex sup { text-transform:uppercase; }
 	.latex sub { vertical-align:-0.5ex; margin-left:-0.1667em;
@@ -34,8 +36,9 @@
 <h4>	Curriculum Vitae</h4>
 
 
-<h3>	Contact	Info	</h3>
+<div><hr></hr></div>
 
+<h3>	Contact		</h3>
 <p>			Aachen 52066            <br>
 			Deutschland             </p>
 
@@ -45,6 +48,8 @@
 
 <a href="http://www.phili.pk/enny">         phili.pk/enny </a>
 
+
+<div><hr></hr></div>
 
 <h3>	Experience	</h3>
 
@@ -76,6 +81,8 @@
 			<span class="light">New Zealand</span>		</p>
 
 
+<div><hr></hr></div>
+
 <h3>	Education	</h3>
 
 <p class="left">	Oct 2013 - Nov 2015	</p>
@@ -91,12 +98,16 @@
 			<span class="light">New Zealand</span>		</p>
 
 
+<div><hr></hr></div>
+
 <h3>	Skills	</h3>
 
 <div>
 <p class="left">	Languages	</p>
 <p> 			English native speaker	</p>
 </div>
+
+<br class="small">
 
 <div>
 <p class="left">	Programming	</p>
@@ -105,16 +116,22 @@
 			Java, Javascript <em>(basic)</em>	</p>
 </div>
 
+<br class="small">
+
 <div>
 <p class="left">	Parallel Programming	</p>
 <p> 	MPI, OpenMP, Posix threads <em>(advanced)</em>	</p>
 </div>
 
+<br class="small">
+
 <div>
 <p class="left">	Imaging		</p>
-<p> 	OpenCV, ImageMagick <em>(advanced)</em>	<br>
+<p> 			OpenCV, ImageMagick <em>(advanced)</em>	<br>
 			OpenCL, OpenGL, CUDA, Paraview, VTK <em>(intermediate)</em>	</p>
 </div>
+
+<br class="small">
 
 <div>
 <p class="left">	Numerical Methods	</p>
@@ -123,16 +140,22 @@
 			Inverse problems, Regression, Monte Carlo methods</p>
 </div>
 
+<br class="small">
+
 <div>
 <p class="left">	Fluid Dynamics	</p>
 <p> 			Stabilised FEM, Isogeometric Analysis, 
 			Lattice Boltzmann methods	</p>
 </div>
 
+<br class="small">
+
 <div>
 <p class="left">	Molecular Dynamics	</p>
 <p> 			Lammps			</p>
 </div>
+
+<br class="small">
 
 <div>
 <p class="left">	General Computing	</p>
