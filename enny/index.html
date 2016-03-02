@@ -14,15 +14,21 @@
 	h3 { color:#247de2; }
 	h4 { color:#7a8899; margin-top:0em; }
 	p { margin: 0px 0px 0.5em 0px; }
-        em { font-weight:lighter;  color: #247de2;}
+        em { font-weight:lighter; font-size:0.9em;  color: #247de2; }
 	b { font-weight:600; }
+	i { font-weight:300; font-size:0.9em; }
 	hr { height:1px; color:#7a8899; background-color:#7a8899; border:#7a8899; margin-top: 0.5em; margin-bottom: 0.5em;}
    
 	.left { float:left; clear:both; width:12em; font-size:0.8em; margin-top:0.2em;}
-        .light { font-weight:300; }
+        .light { font-weight:300; font-size:0.9em; }
 	.small { height:0.1em; }
-        .aside { float:right; min-width:15em; font-size:small; text-align:right; color:#7a8899; }
+        .aside { float:right; min-width:15em; font-size:small; text-align:right; color:#7a8899; margin-bottom:0em; }
+	.mail { color:#7a8899; text-decoration:none; }
+
         #title { float:left; min-width:15em; }
+	#experience {}
+	#education {}
+	#skills {}
 	/*#header { position:fixed; }*/
 
 	.latex sub, .latex sup { text-transform:uppercase; }
@@ -54,7 +60,8 @@
 
 <p>                     +49 12 7575 01005       </p>
 
-<p>                     philiprkenny@gmail.com  </p>
+<a class="mail", href="mailto:philiprkenny@gmail.com">philiprkenny@gmail.com</a>
+<br />
 
 <a href="http://www.phili.pk/enny">         phili.pk/enny </a>
 </div>
@@ -62,18 +69,24 @@
 
 <div><hr /></div>
 
+<div id="experience">
 <h3>	Experience	</h3>
 
 <p class="left">	May 2015 - Nov 2015	</p>
 <p>			<b>Master's Thesis</b>	<br />
 			Institut f&#252;r Nachrichtentechnik, RWTH Aachen 
-			University		<br />
-			<span class="light">Germany</span>		</p>
+			University,	
+			<span class="light">Germany</span>	<br />
+			<em>Title: Investigations into Affine Invariant Feature
+			Detection</em>	<br />
+			<i>Compared and modified a selection of common keypoint 
+			detectors with the intent of improving
+			performance</i></p>
 
 <p class="left">	Feb 2015 - May 2015	</p>
 <p>			<b>Research Assistant</b>		<br />
 			Forschungsinstitut f&#252;r Wasser- und Abfallwirtschaft 
-			an der RWTH Aachen		<br />
+			an der RWTH Aachen,		
 			<span class="light">Germany</span>	<br />
 			<i>Created Matlab/Simulink model of biomethanol reactor
 			to support business case of installing pilot reactor
@@ -81,7 +94,7 @@
 
 <p class="left">	Feb 2009 - May 2012	</p>
 <p>			<b>Process Engineer</b>		<br />
-			Carter Holt Harvey Pulp and Paper	<br />
+			Carter Holt Harvey Pulp and Paper,	
 			<span class="light">New Zealand</span>	<br />
 			<i>Employed onsite trialling new equipment and
 			processes, managing planned outages, safety procedures
@@ -89,38 +102,40 @@
 
 <p class="left">	Nov 2007 - Feb 2008	</p>
 <p>			<b>Undergraduate Internship</b>		<br />
-			Fonterra Co-operative Group Limited	<br />
+			Fonterra Co-operative Group Limited,
 			<span class="light">New Zealand</span>	<br />
 			<i>Worked in lactose fermentation and ethanol 
 			distillation plant conducting laboratory trials</i></p>
 
 <p class="left">	Nov 2006 - Mar 2007	</p>
 <p class="right">	<b>Undergraduate Internship</b>		<br />
-			Tatua Co-operative Dairy Company Limited<br />
+			Tatua Co-operative Dairy Company Limited,
 			<span class="light">New Zealand</span>	<br />
 			<i>Worked in protein extraction plant operating ion 
 			exchange columns and freeze dryers</i></p>
-
+<div/>
 
 <div><hr /></div>
 
+<div id="education">
 <h3>	Education	</h3>
 
 <p class="left">	Oct 2013 - Nov 2015	</p>
 <p>			<b>MSc Simulation Science</b>		<br />
 			German Research School for Simulation Sciences, 
-			RWTH Aachen University		<br />
+			RWTH Aachen University,	
 			<span class="light">Germany</span>		</p>
 
 <p class="left">	Feb 2005 - Nov 2009	</p>
 <p>			<b>Bachelor of Engineering 
                         (Chemical and Materials)</b><br />
-			University of Auckland	<br />
+			University of Auckland,
 			<span class="light">New Zealand</span>		</p>
-
+</div>
 
 <div><hr /></div>
 
+<div id="skills">
 <h3>	Skills	</h3>
 
 <div>
@@ -132,41 +147,45 @@
 
 <div>
 <p class="left">	Programming	</p>
-<p> 			C/C++, Python <em>(advanced)</em>	<br />
-			Fortran	<em>(intermediate)</em>		<br />
-			Java, Javascript <em>(basic)</em>	</p>
+<p> 			C/C++,&nbsp; Python&nbsp; <em>(advanced)</em>	<br />
+			Fortran&nbsp;	<em>(intermediate)</em>		<br />
+			Java,&nbsp; Javascript&nbsp; <em>(basic)</em>	</p>
 </div>
 
 <div class="small" ></div>
 
 <div>
 <p class="left">	Parallel Programming	</p>
-<p> 	MPI, OpenMP, Posix threads <em>(advanced)</em>	</p>
+<p> 			MPI,&nbsp; OpenMP,&nbsp; Posix threads&nbsp;
+			 <em>(advanced)</em>	</p>
 </div>
 
 <div class="small" ></div>
 
 <div>
 <p class="left">	Imaging		</p>
-<p> 			OpenCV, ImageMagick <em>(advanced)</em>	<br />
-			OpenCL, OpenGL, CUDA, Paraview, VTK <em>(intermediate)</em>	</p>
+<p> 			OpenCV,&nbsp; ImageMagick&nbsp; <em>(advanced)</em>
+			<br />
+			OpenCL,&nbsp; OpenGL,&nbsp; CUDA,&nbsp; Paraview,&nbsp;
+			VTK&nbsp; <em>(intermediate)</em>	</p>
 </div>
 
 <div class="small" ></div>
 
 <div>
 <p class="left">	Numerical Methods	</p>
-<p> 			Finite difference / Finite volume methods,
-			Sparse matrix operations, Iterative solvers,
-			Inverse problems, Regression, Monte Carlo methods</p>
+<p> 			Finite difference / Finite volume,&nbsp;
+			Sparse matrix operations,&nbsp; Iterative solvers,&nbsp;
+			Inverse problems,&nbsp; Regression,&nbsp; 
+			Monte Carlo </p>
 </div>
 
 <div class="small" ></div>
 
 <div>
 <p class="left">	Fluid Dynamics	</p>
-<p> 			Stabilised FEM, Isogeometric Analysis, 
-			Lattice Boltzmann methods	</p>
+<p> 			Stabilised FEM,&nbsp; Isogeometric Analysis,&nbsp; 
+			Lattice Boltzmann	</p>
 </div>
 
 <div class="small" ></div>
@@ -180,9 +199,11 @@
 
 <div>
 <p class="left">	General Computing	</p>
-<p> 			GNU/Linux, Bash, Git, Subversion, Matlab/Simulink, 
+<p> 			GNU/Linux,&nbsp; Bash,&nbsp; Git,&nbsp; Subversion,
+			&nbsp; Matlab/Simulink,&nbsp; 
 			<span class="latex">L<sup>a</sup>T<sub>e</sub>X</span>
 			</p>
+</div>
 </div>
 
 </body>
