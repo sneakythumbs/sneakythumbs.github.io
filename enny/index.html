@@ -6,15 +6,19 @@
 <style> 
 <!--
         @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,300,400italic,300italic);
-	body * { overflow:auto; font-family:'Open Sans', sans-serif; max-width:60em; /*border:dashed 1px;*/ }
-	div { min-width:40em; }
+	body * { overflow:auto; font-family:'Open Sans', sans-serif; max-width:60em;/* border:dashed 1px;*/ }
+	div { min-width:30em; }
+	h3 { color:#247de2; }
 	p { margin: 0px 0px 0.5em 0px; }
-        em { font-weight:lighter; }
+        em { font-weight:lighter;  color: #247de2;}
 	b { font-weight:600; }
-	hr {  height:2px; background-color:#000; }
+	hr {  height:1px; background-color:#247de2; border:#247de2 }
 	.left { float:left; clear:both; width:12em; }
         .light { font-weight:300; }
 	.small { font-size:0.1em; }
+        .aside { float:right; min-width:15em; text-align:right;}
+        #title { float:left; min-width:15em; }
+	/*#header { position:fixed; }*/
 
 	.latex sub, .latex sup { text-transform:uppercase; }
 	.latex sub { vertical-align:-0.5ex; margin-left:-0.1667em;
@@ -32,13 +36,14 @@
 
 <body>
 
+<div id="header">
+<div id="title">
 <h1>	Philip Kenny	</h1>
 <h4>	Curriculum Vitae</h4>
+</div>
 
-
-<div><hr></hr></div>
-
-<h3>	Contact		</h3>
+<!-- <div><hr></hr></div> -->
+<div class="aside">
 <p>			Aachen 52066            <br>
 			Deutschland             </p>
 
@@ -47,7 +52,8 @@
 <p>                     philiprkenny@gmail.com  </p>
 
 <a href="http://www.phili.pk/enny">         phili.pk/enny </a>
-
+</div>
+</div>
 
 <div><hr></hr></div>
 
