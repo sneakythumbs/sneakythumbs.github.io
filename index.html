@@ -12,16 +12,17 @@
     body {overflow:auto; margin:0; padding:0; color:rgba(0, 0, 0, 0.8);
           background-color:#cccccc; background-image:url("bckgnd.jpg"); 
           background-size:cover; }
-    a { margin:1em; font-family:'Open Sans', sans-serif; text-decoration: none; }
+    a { font-family:'Open Sans', sans-serif; text-decoration: none; }
     a:link { color:rgba(0, 0, 0, 0.8); }
     a:visited { color:rgba(0, 0, 0, 0.8); }
     a:hover { color:rgba(0, 0, 0, 0.4); }
     p { margin:0em; }
     video { margin:1em auto; width:400px;  }
     hr { color:rgba(0, 0, 0, 0.4); height:1px; }
-	#nav { position:fixed; height:4em; background-color:white;
+	#nav { position:fixed; height:4em; background-color:white;;
            font-family:'Open Sans', sans-serif; text-align:center; width:100%; 
            border:1px solid rgba(0, 0, 0, 0.09); border-bottom-style:solid; z-index:100000; }
+    #nav a { margin:1em; }
     #nav-space { width:100%; height:4em; }
     .mono { font-family:monospace; }
     .centre-wrap { height:34%; text-align: center;}
@@ -95,9 +96,34 @@
     doing see <a href="http://www.milkyklim.com">milkyklim</a>). The code works
     with MPI to take advantage of massively parallel architecture of modern 
     clusters. The implementation takes unstructured meshes, specifically 
-    <a href"http://www.cats.rwth-aachen.de/about/software/formats/mixd">MIXD 
+    <a href="http://www.cats.rwth-aachen.de/about/software/formats/mixd">MIXD 
     format</a> as input and outputs data in VTK format.
 </p>
+<p>
+    The videos below show results for different geometries and boundary 
+    conditions.
+    <div class="centre">
+    <video controls>
+    <source src="Circle.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+    </video> 
+    <video controls>
+    <source src="Rod.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+    </video> 
+    <video controls>
+    <source src="second.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+    </video> 
+    </div>
+</p>
+<hr />
+<span class="mono">
+    code: 
+    <a href="https://github.com/philipkenny/2d-unsteady-heat-eqn">
+    Finite Elements - Github
+    </a>
+</span>
 </div>
 
 
